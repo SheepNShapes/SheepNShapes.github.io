@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+.background {
+    padding-top: 100px;
+    padding-left: 40px;
+    /* background-image: url(../Assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    width: 100vw; */
+}
+body {
+    background-image: url(../Assets/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a.back-button{
+    text-decoration: none;
+}
+.back-button {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px solid #36401f;
+    background-color: #91af81; */
+    color: #36401f;
+    display: flex;
+    justify-content: start;
+    width: 5vw;
+    margin: 0 1em;
+    margin-top: 0.5em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.back-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.back-button span:after {
+    content: 'Back';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -70px;
+    /* right: -100px; */
+    transition: 0.5s;
+}
+.back-button:hover span {
+    padding-right: 70px;
+}
+.back-button:hover {
+    /* width: 7vw; */
+    width: 120px;
+    transition: 0.5s;
+}
+.back-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.back-button:hover {
+    background-color: #c8e5b9;
+}
+
+a.back-arrow {
+    text-decoration: none;
+}
+.back-arrow {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px solid #36401f;
+    background-color: #91af81; */
+    color: #36401f;
+    display: flex;
+    justify-content: center;
+    width: 1.5em;
+    margin: 0 1em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.back-arrow:hover {
+    background-color: #c8e5b9;
+}
