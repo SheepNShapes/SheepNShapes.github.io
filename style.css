@@ -17,9 +17,9 @@ html {
 } */
 
 body {
-    background-image: url(Assets/Background.png);
+    background-image: url(Assets/Background_flip.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     min-height: 100vh;
     /* height: 100%; */
@@ -29,6 +29,7 @@ body {
     box-sizing: inherit;
     margin: 0; */
 }
+
 
 header {
     display: flex;
